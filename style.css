@@ -75,17 +75,81 @@ display: none;
 }
 
 @media screen and (max-width: 1122px){
-  body {
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 100vh;
+ .container{
+  
+ }
+ section{
+  padding: 40px;
+ }
+ p{
+  width: 70%;
+ }
+ .woman{
+ position: relative;
+ right: 90px;
+ width: 50%;
+ }
+ button{
+  right: 330px;
+ }
+}
+@media screen and (max-width: 1096px) {
+  button{
+    right:300px ;
   }
-  p{
-width: 100%;
+}
+@media screen and (max-width: 1076px) {
+  button{
+    right:285px ;
+  }
+}
+@media screen and (max-width: 1066px) {
+  button{
+    right:270px ;
+  }
+}
+@media screen and (max-width: 1045px) {
+  button{
+    right:245px ;
+  }
+}
+@media screen and (max-width: 1018px) {
+  button{
+    right:220px ;
+  }
+}
+@media screen and (max-width: 708px) {
+  .container{
+flex-direction: column;
+  } 
+  .woman{
+    display: none;
+  }
+  .woman-mobile{
+    display: inline;
   }
   button{
-    right: 210px;
+    right:200px ;
+  }
+}
+@media screen and (max-width: 673px) {
+  button{
+    right:175px ;
+  }
+}
+@media screen and (max-width: 63px) {
+  button{
+    right:165px ;
   }
 }
  
-  
+@media screen and (max-width: 400px) {
+  button{
+    right:170px ;
+  }
+}
+@media screen and (max-width: 300px) {
+  button{
+    right:140px ;
+  }
+}
