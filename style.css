@@ -137,18 +137,18 @@ flex-direction: column;
     right:175px ;
   }
 }
-@media screen and (max-width: 63px) {
+@media screen and (max-width: 630px) {
   button{
     right:165px ;
   }
 }
  
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   button{
     right:170px ;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 330px) {
   button{
     right:140px ;
   }
